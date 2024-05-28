@@ -1,0 +1,48 @@
+#root {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #663399;
+    /* display: flex; */
+    align-items: center;
+    /* justify-content: center; */
+    max-width:  52vw ;
+}
+
+.upbox{
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 350px;
+    height: 40px;
+    font-size: xx-large;
+}
+
+.downbox{
+    display: flex;
+}
+
+.firstbox {
+    display: flex;
+    padding: 12px;
+    width: 250px;
+    gap: 8px;
+    flex-direction: column; 
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+.secondbox {
+    padding: 12px;
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+}
+
+.btn {
+    border-radius: 100%;
+    font-size: large;
+    padding: 30px;
+    text-align: center;
+}
